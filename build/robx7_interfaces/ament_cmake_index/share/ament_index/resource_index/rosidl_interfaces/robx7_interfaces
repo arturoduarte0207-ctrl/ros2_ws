@@ -1,0 +1,6 @@
+msg/CustomString.idl
+msg/CustomString.msg
+msg/HardwareStatus.idl
+msg/HardwareStatus.msg
+srv/SumarDosFlotantes.idl
+srv/SumarDosFlotantes.srv

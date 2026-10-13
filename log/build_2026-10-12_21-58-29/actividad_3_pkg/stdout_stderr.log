@@ -1,0 +1,71 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+-- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)
+-- Configuring done (3.6s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg
+[ 50%] [32mBuilding CXX object CMakeFiles/monitor_node.dir/src/monitor_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/emulator_node.dir/src/emulator_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/operator_node.dir/src/operator_node.cpp.o[0m
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:1[m[K:
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:[m[K In member function ‘[01m[Kvoid EmulatorNode::[01;32m[Kpublish_status[m[K()[m[K’:
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:20:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint[m[K[m[K’, but argument 5 has type ‘[01m[K[01;34m[Krobx7_interfaces::msg::HardwareStatus_<std::allocator<void> >::_temperatura_type[m[K’ {aka ‘[01m[K[01;34m[Klong int[m[K’}[m[K [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+   20 |     RCLCPP_INFO(this->get_logger(), [01;32m[K"[m[K[01;32m[KP[m[K[01;32m[Ku[m[K[01;32m[Kb[m[K[01;32m[Kl[m[K[01;32m[Ki[m[K[01;32m[Kc[m[K[01;32m[Ka[m[K[01;32m[Kn[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[K [m[K[01;32m[KT[m[K[01;32m[Ke[m[K[01;32m[Km[m[K[01;32m[Kp[m[K[01;32m[Ke[m[K[01;32m[Kr[m[K[01;32m[Ka[m[K[01;32m[Kt[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ka[m[K[01;32m[K:[m[K[01;32m[K [m[K[01;32m[K%[m[K[01;32m[Kd[m[K[01;32m[K [m[K[01;32m[KC[m[K[01;32m[K"[m[K, [01;34m[Km[m[K[01;34m[Ks[m[K[01;34m[Kg[m[K[01;34m[K.[m[K[01;34m[Kt[m[K[01;34m[Ke[m[K[01;34m[Km[m[K[01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kr[m[K[01;34m[Ka[m[K[01;34m[Kt[m[K[01;34m[Ku[m[K[01;34m[Kr[m[K[01;34m[Ka[m[K);
+      |                                     [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K  [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                                         [01;34m[K|[m[K
+      |                                                                         [01;34m[Krobx7_interfaces::msg::HardwareStatus_<std::allocator<void> >::_temperatura_type {aka long int}[m[K
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:20:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   20 |   RCLCPP_INFO(this->get_logger(), "Publicando Temperatura: [01;32m[K%[m[K[01;32m[Kd[m[K C", msg.temperatura);
+      |                                                            [01;32m[K~[m[K[01;32m[K^[m[K
+      |                                                             [01;32m[K|[m[K
+      |                                                             [01;32m[Kint[m[K
+      |                                                            [32m[K%ld[m[K
+[ 66%] [1m[32mLinking CXX executable operator_node[0m
+[ 83%] [1m[32mLinking CXX executable emulator_node[0m
+[ 83%] Built target operator_node
+[ 83%] Built target emulator_node
+[100%] [1m[32mLinking CXX executable monitor_node[0m
+[100%] Built target monitor_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/lib/actividad_3_pkg/emulator_node
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/lib/actividad_3_pkg/monitor_node
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/lib/actividad_3_pkg/operator_node
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/launch/hardware_system.launch.py
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/package_run_dependencies/actividad_3_pkg
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/parent_prefix_path/actividad_3_pkg
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.sh
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.bash
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.fish
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.sh
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.dsv
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/packages/actividad_3_pkg
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig.cmake
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.xml

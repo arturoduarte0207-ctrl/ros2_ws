@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[0.031s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.032s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.032s]   CMake.
+[0.032s] 
+[0.032s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.032s]   to tell CMake that the project requires at least <min> but has been updated
+[0.032s]   to work with policies introduced by <max> or earlier.
+[0.032s] 
+[0.032s] [0m
+[0.067s] -- The C compiler identification is GNU 15.2.0
+[0.118s] -- The CXX compiler identification is GNU 15.2.0
+[0.125s] -- Detecting C compiler ABI info
+[1.263s] -- Detecting C compiler ABI info - done
+[1.286s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.287s] -- Detecting C compile features
+[1.287s] -- Detecting C compile features - done
+[2.572s] -- Detecting CXX compiler ABI info
+[2.913s] -- Detecting CXX compiler ABI info - done
+[2.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.937s] -- Detecting CXX compile features
+[2.938s] -- Detecting CXX compile features - done
+[6.071s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[6.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.327s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[6.354s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[6.361s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[6.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.447s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[6.449s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[6.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.532s] -- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)
+[6.547s] -- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+[6.561s] [31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):
+[6.561s]   Unknown CMake command "ament_target_dependencies".
+[6.561s] 
+[6.561s] [0m
+[6.561s] -- Configuring incomplete, errors occurred!
+[6.566s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg

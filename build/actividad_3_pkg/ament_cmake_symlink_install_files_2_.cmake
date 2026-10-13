@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/actividad_3_pkg/environment")

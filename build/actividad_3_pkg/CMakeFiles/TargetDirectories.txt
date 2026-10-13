@@ -1,0 +1,12 @@
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/uninstall.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/actividad_3_pkg_uninstall.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/emulator_node.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/monitor_node.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/operator_node.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/test.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/edit_cache.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/rebuild_cache.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/list_install_components.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/install.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/install/local.dir
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/CMakeFiles/install/strip.dir

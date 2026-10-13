@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_typesupport_introspection_c/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_c.h

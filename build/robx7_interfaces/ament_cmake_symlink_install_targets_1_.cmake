@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_py/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "robx7_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.14/site-packages/robx7_interfaces")

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000212] (-) JobUnselected: {'identifier': 'actividad_3_pkg'}
+[0.000281] (-) JobUnselected: {'identifier': 'cpp_example'}
+[0.000331] (-) JobUnselected: {'identifier': 'py_example'}
+[0.000377] (-) JobUnselected: {'identifier': 'robx7_bringup'}
+[0.000400] (-) JobUnselected: {'identifier': 'robx7_description'}
+[0.000412] (-) JobUnselected: {'identifier': 'robx7_interfaces'}
+[0.000425] (-) EventReactorShutdown: {}

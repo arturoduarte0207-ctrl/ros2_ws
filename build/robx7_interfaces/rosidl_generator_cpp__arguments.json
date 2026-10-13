@@ -1,0 +1,47 @@
+{
+  "package_name": "robx7_interfaces",
+  "output_dir": "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_cpp/robx7_interfaces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:msg/HardwareStatus.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:msg/CustomString.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:srv/SumarDosFlotantes.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../../../lib/python3.14/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/action__type_support.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/idl__type_support.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/msg__type_support.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/opt/ros/lyrical/share/rosidl_generator_cpp/cmake/../resource/srv__type_support.hpp.em",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/msg/HardwareStatus.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/msg/CustomString.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/srv/SumarDosFlotantes.idl",
+    "/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/HardwareStatus.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/msg/HardwareStatus.json",
+    "msg/CustomString.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/msg/CustomString.json",
+    "srv/SumarDosFlotantes.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/srv/SumarDosFlotantes.json"
+  ]
+}

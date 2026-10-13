@@ -1,0 +1,41 @@
+[1.833s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/cpp_example': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/cpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/cpp_example
+[3.927s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[3.927s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[3.927s]   CMake.
+[3.928s] 
+[3.928s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[3.928s]   to tell CMake that the project requires at least <min> but has been updated
+[3.928s]   to work with policies introduced by <max> or earlier.
+[3.928s] 
+[3.928s] [0m
+[11.773s] -- The C compiler identification is GNU 15.2.0
+[13.199s] -- The CXX compiler identification is GNU 15.2.0
+[13.224s] -- Detecting C compiler ABI info
+[15.639s] -- Detecting C compiler ABI info - done
+[16.208s] -- Check for working C compiler: /usr/bin/cc - skipped
+[17.423s] -- Detecting C compile features
+[18.377s] -- Detecting C compile features - done
+[22.841s] -- Detecting CXX compiler ABI info
+[22.959s] -- Detecting CXX compiler ABI info - done
+[22.970s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.970s] -- Detecting CXX compile features
+[22.971s] -- Detecting CXX compile features - done
+[23.015s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[23.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[24.230s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[24.302s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[24.319s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[24.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.517s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[24.523s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[24.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.711s] -- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)
+[24.759s] -- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)
+[24.885s] -- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)
+[24.896s] [31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):
+[24.896s]   Unknown CMake command "ament_target_dependencies".
+[24.896s] 
+[24.896s] [0m
+[24.896s] -- Configuring incomplete, errors occurred!
+[24.902s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/cpp_example' returned '1': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/cpp_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/cpp_example

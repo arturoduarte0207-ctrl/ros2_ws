@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robx7_interfaces/msg/CustomString.msg
+// generated code does not contain a copyright notice
+
+
+module robx7_interfaces {
+  module msg {
+    struct CustomString {
+      string data;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[0.224s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.224s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.225s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.225s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.225s]   CMake.
+[0.225s] 
+[0.225s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.225s]   to tell CMake that the project requires at least <min> but has been updated
+[0.225s]   to work with policies introduced by <max> or earlier.
+[0.225s] 
+[0.225s] [0m
+[0.225s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.249s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.336s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.431s] -- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)
+[0.447s] -- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)
+[0.465s] [31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):
+[0.465s]   Unknown CMake command "ament_target_dependencies".
+[0.465s] 
+[0.466s] [0m
+[0.466s] -- Configuring incomplete, errors occurred!
+[1.481s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg

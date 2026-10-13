@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_description" FILES "/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robx7_description")

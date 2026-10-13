@@ -1,0 +1,9 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/uninstall.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/robx7_description_uninstall.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/test.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/edit_cache.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/rebuild_cache.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/list_install_components.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/install.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/install/local.dir
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/CMakeFiles/install/strip.dir

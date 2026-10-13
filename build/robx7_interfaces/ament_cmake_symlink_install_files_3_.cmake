@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces" FILES "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/srv/SumarDosFlotantes.json" "DESTINATION" "share/robx7_interfaces/srv")

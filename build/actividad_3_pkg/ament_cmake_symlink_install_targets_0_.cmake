@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/emulator_node" "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/monitor_node" "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/operator_node" "TARGETS" "emulator_node" "monitor_node" "operator_node" "DESTINATION" "lib/actividad_3_pkg")

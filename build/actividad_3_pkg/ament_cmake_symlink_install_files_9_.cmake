@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg" FILES "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/actividad_3_pkg")

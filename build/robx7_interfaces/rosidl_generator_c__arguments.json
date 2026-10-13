@@ -1,0 +1,52 @@
+{
+  "package_name": "robx7_interfaces",
+  "output_dir": "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_c/robx7_interfaces",
+  "template_dir": "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:msg/HardwareStatus.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:msg/CustomString.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces:srv/SumarDosFlotantes.idl"
+  ],
+  "ros_interface_files": [
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces/msg/HardwareStatus.msg",
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces/msg/CustomString.msg",
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces/srv/SumarDosFlotantes.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../../../lib/python3.14/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/lyrical/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/msg/HardwareStatus.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/msg/CustomString.idl",
+    "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_adapter/robx7_interfaces/srv/SumarDosFlotantes.idl",
+    "/opt/ros/lyrical/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/lyrical/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "msg/HardwareStatus.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/msg/HardwareStatus.json",
+    "msg/CustomString.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/msg/CustomString.json",
+    "srv/SumarDosFlotantes.idl:/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_type_description/robx7_interfaces/srv/SumarDosFlotantes.json"
+  ]
+}

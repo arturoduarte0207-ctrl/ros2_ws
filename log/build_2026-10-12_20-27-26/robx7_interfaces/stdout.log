@@ -1,0 +1,24 @@
+[  1%] Built target robx7_interfaces__rosidl_generator_type_description
+[  3%] Built target robx7_interfaces__rs
+[  5%] Built target robx7_interfaces__cpp
+[ 25%] Built target robx7_interfaces__rosidl_generator_c
+[ 43%] Built target robx7_interfaces__rosidl_typesupport_c
+[ 43%] Built target robx7_interfaces__rosidl_typesupport_introspection_cpp
+[ 61%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_c
+[ 61%] Built target robx7_interfaces__rosidl_typesupport_introspection_c
+[ 70%] Built target robx7_interfaces__rosidl_typesupport_cpp
+[ 80%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 80%] Built target robx7_interfaces
+[ 81%] Built target robx7_interfaces__py
+[ 89%] Built target robx7_interfaces__rosidl_generator_py
+[ 89%] Built target ament_cmake_python_sync_robx7_interfaces
+[ 92%] Built target robx7_interfaces_s__rosidl_typesupport_fastrtps_c
+[ 96%] Built target robx7_interfaces_s__rosidl_typesupport_c
+[100%] Built target robx7_interfaces_s__rosidl_typesupport_introspection_c
+running egg_info
+writing robx7_interfaces.egg-info/PKG-INFO
+writing dependency_links to robx7_interfaces.egg-info/dependency_links.txt
+writing top-level names to robx7_interfaces.egg-info/top_level.txt
+reading manifest file 'robx7_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'robx7_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robx7_interfaces_egg

@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/package_run_dependencies/actividad_3_pkg
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/parent_prefix_path/actividad_3_pkg
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.bash
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.fish
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.zsh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/packages/actividad_3_pkg
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig.cmake
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig-version.cmake
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.xml

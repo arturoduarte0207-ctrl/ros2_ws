@@ -1,0 +1,1 @@
+Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces -- -j8 -l8

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robx7_interfaces/srv/SumarDosFlotantes.srv
+// generated code does not contain a copyright notice
+
+
+module robx7_interfaces {
+  module srv {
+    struct SumarDosFlotantes_Request {
+      float a;
+
+      float b;
+    };
+    struct SumarDosFlotantes_Response {
+      float suma;
+    };
+  };
+};

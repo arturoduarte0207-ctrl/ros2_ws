@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (-) JobUnselected: {'identifier': 'cpp_example'}
+[0.000414] (-) JobUnselected: {'identifier': 'py_example'}
+[0.000531] (-) JobUnselected: {'identifier': 'robx7_bringup'}
+[0.000567] (-) JobUnselected: {'identifier': 'robx7_description'}
+[0.000609] (-) JobUnselected: {'identifier': 'robx7_interfaces'}
+[0.000640] (actividad_3_pkg) JobQueued: {'identifier': 'actividad_3_pkg', 'dependencies': OrderedDict({'robx7_interfaces': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces'})}
+[0.000698] (actividad_3_pkg) JobStarted: {'identifier': 'actividad_3_pkg'}
+[0.010826] (actividad_3_pkg) JobProgress: {'identifier': 'actividad_3_pkg', 'progress': 'cmake'}
+[0.011126] (actividad_3_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': '10f87d95-96ee-44ae-87b0-e74dbf34b1fb', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3188', 'SYSTEMD_EXEC_PID': '3619', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '67762', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '4463', 'JOURNAL_STREAM': '10:29002', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': 'f42aff18ef824c4dab3f3dde7a0acf20', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YO8VW3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:edc51cc8-4fd2-4e4e-8db8-d3fe9e557c09', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[0.018795] (actividad_3_pkg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.019001] (actividad_3_pkg) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.019090] (actividad_3_pkg) StderrLine: {'line': b'  CMake.\n'}
+[0.019169] (actividad_3_pkg) StderrLine: {'line': b'\n'}
+[0.019243] (actividad_3_pkg) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.019318] (actividad_3_pkg) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.019392] (actividad_3_pkg) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.019466] (actividad_3_pkg) StderrLine: {'line': b'\n'}
+[0.019536] (actividad_3_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.054832] (actividad_3_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.099811] (-) TimerEvent: {}
+[0.103824] (actividad_3_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.109863] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200039] (-) TimerEvent: {}
+[0.300500] (-) TimerEvent: {}
+[0.400922] (-) TimerEvent: {}
+[0.501231] (-) TimerEvent: {}
+[0.601542] (-) TimerEvent: {}
+[0.702120] (-) TimerEvent: {}
+[0.802721] (-) TimerEvent: {}
+[0.903318] (-) TimerEvent: {}
+[1.003920] (-) TimerEvent: {}
+[1.104507] (-) TimerEvent: {}
+[1.205148] (-) TimerEvent: {}
+[1.305721] (-) TimerEvent: {}
+[1.406290] (-) TimerEvent: {}
+[1.506883] (-) TimerEvent: {}
+[1.607414] (-) TimerEvent: {}
+[1.707885] (-) TimerEvent: {}
+[1.764495] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.786310] (actividad_3_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.786451] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.786759] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.808007] (-) TimerEvent: {}
+[1.908442] (-) TimerEvent: {}
+[2.008888] (-) TimerEvent: {}
+[2.109308] (-) TimerEvent: {}
+[2.209789] (-) TimerEvent: {}
+[2.299770] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.309897] (-) TimerEvent: {}
+[2.410284] (-) TimerEvent: {}
+[2.510688] (-) TimerEvent: {}
+[2.611235] (-) TimerEvent: {}
+[2.644055] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.668341] (actividad_3_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.668511] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.668881] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.711359] (-) TimerEvent: {}
+[2.811781] (-) TimerEvent: {}
+[2.912252] (-) TimerEvent: {}
+[3.012729] (-) TimerEvent: {}
+[3.113188] (-) TimerEvent: {}
+[3.213650] (-) TimerEvent: {}
+[3.314097] (-) TimerEvent: {}
+[3.398334] (actividad_3_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[3.414266] (-) TimerEvent: {}
+[3.514509] (-) TimerEvent: {}
+[3.614816] (-) TimerEvent: {}
+[3.632653] (actividad_3_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.654950] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[3.679821] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[3.686778] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[3.698020] (actividad_3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.707697] (actividad_3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.714882] (-) TimerEvent: {}
+[3.757789] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[3.760074] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.783198] (actividad_3_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.814988] (-) TimerEvent: {}
+[3.835140] (actividad_3_pkg) StdoutLine: {'line': b'-- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)\n'}
+[3.845969] (actividad_3_pkg) StdoutLine: {'line': b'-- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)\n'}
+[3.856553] (actividad_3_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):\n'}
+[3.856673] (actividad_3_pkg) StderrLine: {'line': b'  Unknown CMake command "ament_target_dependencies".\n'}
+[3.856730] (actividad_3_pkg) StderrLine: {'line': b'\n'}
+[3.856780] (actividad_3_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.856919] (actividad_3_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.862009] (actividad_3_pkg) CommandEnded: {'returncode': 1}
+[3.877031] (actividad_3_pkg) JobEnded: {'identifier': 'actividad_3_pkg', 'rc': 1}
+[3.887540] (-) EventReactorShutdown: {}

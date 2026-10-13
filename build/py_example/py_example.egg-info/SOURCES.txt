@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+py_example/__init__.py
+py_example/test_node.py
+py_example.egg-info/PKG-INFO
+py_example.egg-info/SOURCES.txt
+py_example.egg-info/dependency_links.txt
+py_example.egg-info/entry_points.txt
+py_example.egg-info/requires.txt
+py_example.egg-info/top_level.txt
+py_example.egg-info/zip-safe
+resource/py_example

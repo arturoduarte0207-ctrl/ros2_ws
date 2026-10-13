@@ -1,0 +1,23 @@
+[0.021s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces
+[0.221s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.221s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.221s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.222s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.222s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.222s]   CMake.
+[0.222s] 
+[0.222s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.222s]   to tell CMake that the project requires at least <min> but has been updated
+[0.222s]   to work with policies introduced by <max> or earlier.
+[0.223s] 
+[0.223s] [0m
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.247s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[4.264s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[4.274s] -- Configuring done (4.2s)
+[8.376s] -- Generating done (4.1s)
+[9.049s] -- Build files have been written to: /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces

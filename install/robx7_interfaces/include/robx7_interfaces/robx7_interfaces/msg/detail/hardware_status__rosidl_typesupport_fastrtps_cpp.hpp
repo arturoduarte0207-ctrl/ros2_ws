@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_typesupport_fastrtps_cpp/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp

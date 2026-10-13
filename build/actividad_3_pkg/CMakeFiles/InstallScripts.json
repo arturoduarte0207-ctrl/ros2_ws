@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

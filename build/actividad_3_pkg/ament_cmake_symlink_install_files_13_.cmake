@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg" FILES "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/ament_cmake_core/actividad_3_pkgConfig.cmake" "/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/ament_cmake_core/actividad_3_pkgConfig-version.cmake" "DESTINATION" "share/actividad_3_pkg/cmake")

@@ -1,0 +1,39 @@
+[0.040s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[0.467s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.467s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.467s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.467s]   CMake.
+[0.467s] 
+[0.467s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.467s]   to tell CMake that the project requires at least <min> but has been updated
+[0.468s]   to work with policies introduced by <max> or earlier.
+[0.468s] 
+[0.468s] [0m
+[0.491s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.514s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.535s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.610s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.612s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.632s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.695s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.695s]   By not providing "Findrobx7_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.695s]   project has asked CMake to find a package configuration file provided by
+[0.695s]   "robx7_interfaces", but CMake did not find one.
+[0.695s] 
+[0.695s]   Could not find a package configuration file provided by "robx7_interfaces"
+[0.695s]   with any of the following names:
+[0.695s] 
+[0.695s]     robx7_interfacesConfig.cmake
+[0.695s]     robx7_interfaces-config.cmake
+[0.695s] 
+[0.695s]   Add the installation prefix of "robx7_interfaces" to CMAKE_PREFIX_PATH or
+[0.695s]   set "robx7_interfaces_DIR" to a directory containing one of the above
+[0.695s]   files.  If "robx7_interfaces" provides a separate development package or
+[0.695s]   SDK, be sure it has been installed.
+[0.695s] 
+[0.695s] [0m
+[0.695s] -- Configuring incomplete, errors occurred!
+[0.714s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg

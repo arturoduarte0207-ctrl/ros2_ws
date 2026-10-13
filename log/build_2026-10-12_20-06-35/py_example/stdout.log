@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating py_example.egg-info
+writing py_example.egg-info/PKG-INFO
+writing dependency_links to py_example.egg-info/dependency_links.txt
+writing entry points to py_example.egg-info/entry_points.txt
+writing requirements to py_example.egg-info/requires.txt
+writing top-level names to py_example.egg-info/top_level.txt
+writing manifest file 'py_example.egg-info/SOURCES.txt'
+reading manifest file 'py_example.egg-info/SOURCES.txt'
+writing manifest file 'py_example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages/py-example.egg-link (link to .)
+Installing test_node script to /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/py_example
+
+Installed /home/arturo-adahir-duarte/ros2_ws/build/py_example
+running symlink_data
+creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/ament_index/resource_index/packages
+symbolically linking /home/arturo-adahir-duarte/ros2_ws/build/py_example/resource/py_example -> /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/ament_index/resource_index/packages
+symbolically linking /home/arturo-adahir-duarte/ros2_ws/build/py_example/package.xml -> /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/py_example

@@ -1,0 +1,28 @@
+[15.158s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_description -- -j8 -l8
+[18.771s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_description -- -j8 -l8
+[18.786s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_description
+[18.793s] -- Install configuration: ""
+[18.793s] -- Execute custom install script
+[18.793s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/common_properties.xacro
+[18.793s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/joystick.urdf
+[18.793s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7.urdf.xacro
+[18.793s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_arm.xacro
+[18.793s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_gripper.xacro
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/rviz/robx7_config.rviz
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/launch/robx7_display.launch.xml
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/package_run_dependencies/robx7_description
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/parent_prefix_path/robx7_description
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.sh
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.dsv
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.sh
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.dsv
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.bash
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.fish
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.sh
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.zsh
+[18.794s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.dsv
+[18.794s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.dsv
+[18.801s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/packages/robx7_description
+[18.801s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig.cmake
+[18.801s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig-version.cmake
+[18.801s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.xml

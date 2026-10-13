@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_description/ament_cmake_environment_hooks/local_setup.sh

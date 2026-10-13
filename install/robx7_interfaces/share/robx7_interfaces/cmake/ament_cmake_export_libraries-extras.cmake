@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_cpp/robx7_interfaces/msg/detail/hardware_status__type_support.hpp

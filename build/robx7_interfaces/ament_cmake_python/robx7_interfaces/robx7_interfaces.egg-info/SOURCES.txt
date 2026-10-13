@@ -1,0 +1,12 @@
+setup.py
+robx7_interfaces/__init__.py
+robx7_interfaces/py.typed
+robx7_interfaces.egg-info/PKG-INFO
+robx7_interfaces.egg-info/SOURCES.txt
+robx7_interfaces.egg-info/dependency_links.txt
+robx7_interfaces.egg-info/top_level.txt
+robx7_interfaces/msg/__init__.py
+robx7_interfaces/msg/_custom_string.py
+robx7_interfaces/msg/_hardware_status.py
+robx7_interfaces/srv/__init__.py
+robx7_interfaces/srv/_sumar_dos_flotantes.py

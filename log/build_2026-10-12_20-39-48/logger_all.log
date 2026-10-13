@@ -1,0 +1,290 @@
+[-1791859186186204672.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[-1791859186186204672.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7605701e0050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76057027bb60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76057027bb60>>, mixin_verb=('build',))
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1791859186186204672.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arturo-adahir-duarte/ros2_ws'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'ros'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['cmake', 'python']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'cmake'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'python'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extensions ['python_setup_py']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B) by extension 'python_setup_py'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/cpp_example) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ProgRob2026B/cpp_example' with type 'ros.ament_cmake' and name 'cpp_example'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/py_example) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ProgRob2026B/py_example' with type 'ros.ament_python' and name 'py_example'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_bringup) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ProgRob2026B/robx7_bringup' with type 'ros.ament_cmake' and name 'robx7_bringup'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_description) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ProgRob2026B/robx7_description' with type 'ros.ament_cmake' and name 'robx7_description'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/ProgRob2026B/robx7_interfaces) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ProgRob2026B/robx7_interfaces' with type 'ros.ament_cmake' and name 'robx7_interfaces'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extensions ['ignore', 'ignore_ament_install']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extension 'ignore'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extension 'ignore_ament_install'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extensions ['colcon_pkg']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extension 'colcon_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extensions ['colcon_meta']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extension 'colcon_meta'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extensions ['ros']
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/actividad_3_pkg) by extension 'ros'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/actividad_3_pkg' with type 'ros.ament_cmake' and name 'actividad_3_pkg'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1791859186186204672.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/arturo-adahir-duarte/ros2_ws/install
+[-1791859186186204672.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/lyrical
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'actividad_3_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'actividad_3_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'py_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'py_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/py_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/py_example', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/py_example', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'robx7_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_description', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'robx7_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'cpp_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/cpp_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/cpp_example', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/cpp_example', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_target' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[-1791859186186204672.000s] Level 5:colcon.colcon_core.verb:set package 'robx7_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.verb:Building package 'robx7_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_bringup', 'merge_install': False, 'path': '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_bringup', 'symlink_install': True, 'test_result_base': None}
+[-1791859186186204672.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1791859186186204672.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1791859186186204672.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces' with build type 'ament_cmake'
+[-1791859186186204672.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1791859186186204672.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg' with build type 'ament_cmake'
+[-1791859186186204672.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1791859186186204672.000s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/py_example' with build type 'ament_python'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_example', 'ament_prefix_path')
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/py_example/share/py_example/hook/ament_prefix_path.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arturo-adahir-duarte/ros2_ws/install/py_example/share/py_example/hook/ament_prefix_path.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/py_example/share/py_example/hook/ament_prefix_path.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1791859186186204672.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_description' with build type 'ament_cmake'
+[-1791859186186204672.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_description'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces -- -j8 -l8
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[-1791859186186204672.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/py_example'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_description -- -j8 -l8
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_description -- -j8 -l8
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_description
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robx7_description)
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_description
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description' for CMake module files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description' for CMake config files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('robx7_description', 'cmake_prefix_path')
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.sh'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/bin'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/lib/pkgconfig/robx7_description.pc'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/lib/python3.14/site-packages'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/bin'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.bash'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.zsh'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/colcon-core/packages/robx7_description)
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robx7_description)
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description' for CMake module files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description' for CMake config files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('robx7_description', 'cmake_prefix_path')
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/hook/cmake_prefix_path.sh'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/bin'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/lib/pkgconfig/robx7_description.pc'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/lib/python3.14/site-packages'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/bin'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.bash'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.zsh'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/colcon-core/packages/robx7_description)
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_clib, egg_info, check, install, bdist_dumb, clean, bdist, develop, bdist_wheel, alias, build_ext, build_py, dist_info, easy_install, bdist_rpm, build_scripts, install_lib, sdist, install_headers, build, install_scripts, saveopts, bdist_egg, update_catalog, setopt, extract_messages, compile_catalog, symlink_data, rotate, install_egg_info, init_catalog, editable_wheel, install_data
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces -- -j8 -l8
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(actividad_3_pkg)
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg' for CMake module files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg' for CMake config files
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/bin'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/lib/pkgconfig/actividad_3_pkg.pc'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/lib/python3.14/site-packages'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:checking '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/bin'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.dsv'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.bash'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.zsh'
+[-1791859186186204672.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/colcon-core/packages/actividad_3_pkg)
+[-1791859186186204672.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1791859186186204672.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1791859186186204672.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1791859186186204672.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1791859186186204672.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1791859186186204672.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1791859186186204672.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arturo-adahir-duarte/ros2_ws/install/local_setup.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arturo-adahir-duarte/ros2_ws/install/_local_setup_util_ps1.py'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arturo-adahir-duarte/ros2_ws/install/setup.ps1'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arturo-adahir-duarte/ros2_ws/install/local_setup.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arturo-adahir-duarte/ros2_ws/install/_local_setup_util_sh.py'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arturo-adahir-duarte/ros2_ws/install/setup.sh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arturo-adahir-duarte/ros2_ws/install/local_setup.bash'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arturo-adahir-duarte/ros2_ws/install/setup.bash'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arturo-adahir-duarte/ros2_ws/install/local_setup.zsh'
+[-1791859186186204672.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arturo-adahir-duarte/ros2_ws/install/setup.zsh'

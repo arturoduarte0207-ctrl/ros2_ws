@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces" FILES "/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/robx7_interfaces/cmake")

@@ -1,0 +1,51 @@
+[5.548s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg
+[7.884s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[7.884s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[7.884s]   CMake.
+[7.884s] 
+[7.884s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[7.884s]   to tell CMake that the project requires at least <min> but has been updated
+[7.884s]   to work with policies introduced by <max> or earlier.
+[7.884s] 
+[7.884s] [0m
+[68.210s] -- The C compiler identification is GNU 15.2.0
+[117.383s] -- The CXX compiler identification is GNU 15.2.0
+[130.906s] -- Detecting C compiler ABI info
+[149.336s] -- Detecting C compiler ABI info - done
+[149.620s] -- Check for working C compiler: /usr/bin/cc - skipped
+[149.627s] -- Detecting C compile features
+[149.640s] -- Detecting C compile features - done
+[150.159s] -- Detecting CXX compiler ABI info
+[150.377s] -- Detecting CXX compiler ABI info - done
+[150.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[150.389s] -- Detecting CXX compile features
+[150.390s] -- Detecting CXX compile features - done
+[183.702s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[205.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[211.947s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[228.796s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[230.662s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[252.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[252.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[290.208s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[298.651s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[336.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[417.623s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[417.624s]   By not providing "Findprog_rob_interfaces.cmake" in CMAKE_MODULE_PATH this
+[417.624s]   project has asked CMake to find a package configuration file provided by
+[417.624s]   "prog_rob_interfaces", but CMake did not find one.
+[417.624s] 
+[417.625s]   Could not find a package configuration file provided by
+[417.625s]   "prog_rob_interfaces" with any of the following names:
+[417.625s] 
+[417.625s]     prog_rob_interfacesConfig.cmake
+[417.625s]     prog_rob_interfaces-config.cmake
+[417.626s] 
+[417.626s]   Add the installation prefix of "prog_rob_interfaces" to CMAKE_PREFIX_PATH
+[417.626s]   or set "prog_rob_interfaces_DIR" to a directory containing one of the above
+[417.626s]   files.  If "prog_rob_interfaces" provides a separate development package or
+[417.626s]   SDK, be sure it has been installed.
+[417.627s] 
+[417.627s] [0m
+[417.627s] -- Configuring incomplete, errors occurred!
+[417.638s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg

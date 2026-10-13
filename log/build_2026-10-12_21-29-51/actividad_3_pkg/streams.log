@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg -- -j8 -l8
+[0.038s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '0': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg -- -j8 -l8
+[0.045s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg
+[0.050s] -- Install configuration: ""
+[0.050s] -- Execute custom install script
+[0.050s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/package_run_dependencies/actividad_3_pkg
+[0.057s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/parent_prefix_path/actividad_3_pkg
+[0.063s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.sh
+[0.069s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/ament_prefix_path.dsv
+[0.075s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.sh
+[0.080s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/environment/path.dsv
+[0.085s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.bash
+[0.091s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.fish
+[0.096s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.sh
+[0.101s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.zsh
+[0.107s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/local_setup.dsv
+[0.112s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.dsv
+[0.118s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/ament_index/resource_index/packages/actividad_3_pkg
+[0.123s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig.cmake
+[0.129s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/cmake/actividad_3_pkgConfig-version.cmake
+[0.134s] -- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg/share/actividad_3_pkg/package.xml
+[0.141s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg' returned '0': CMAKE_PREFIX_PATH=/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg

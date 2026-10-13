@@ -1,0 +1,170 @@
+[1.105s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces -- -j8 -l8
+[3.598s] [  1%] Built target robx7_interfaces__rosidl_generator_type_description
+[3.606s] [  3%] Built target robx7_interfaces__rs
+[3.629s] [  5%] Built target robx7_interfaces__cpp
+[3.707s] [ 25%] Built target robx7_interfaces__rosidl_generator_c
+[3.824s] [ 34%] Built target robx7_interfaces__rosidl_typesupport_introspection_c
+[3.867s] [ 43%] Built target robx7_interfaces__rosidl_typesupport_c
+[6.122s] [ 69%] Built target robx7_interfaces__rosidl_typesupport_cpp
+[6.123s] [ 69%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_c
+[6.123s] [ 70%] Built target robx7_interfaces__rosidl_typesupport_introspection_cpp
+[7.619s] [ 80%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.686s] [ 80%] Built target robx7_interfaces
+[12.628s] [ 81%] Built target robx7_interfaces__py
+[19.384s] [ 89%] Built target robx7_interfaces__rosidl_generator_py
+[22.040s] [ 92%] Built target robx7_interfaces_s__rosidl_typesupport_c
+[22.069s] [ 96%] Built target robx7_interfaces_s__rosidl_typesupport_introspection_c
+[24.158s] [100%] Built target robx7_interfaces_s__rosidl_typesupport_fastrtps_c
+[27.102s] [100%] Built target ament_cmake_python_sync_robx7_interfaces
+[27.327s] running egg_info
+[27.340s] writing robx7_interfaces.egg-info/PKG-INFO
+[27.340s] writing dependency_links to robx7_interfaces.egg-info/dependency_links.txt
+[27.346s] writing top-level names to robx7_interfaces.egg-info/top_level.txt
+[27.391s] reading manifest file 'robx7_interfaces.egg-info/SOURCES.txt'
+[27.394s] writing manifest file 'robx7_interfaces.egg-info/SOURCES.txt'
+[27.420s] [100%] Built target ament_cmake_python_build_robx7_interfaces_egg
+[27.428s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces -- -j8 -l8
+[27.462s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces
+[27.473s] -- Install configuration: ""
+[27.476s] -- Execute custom install script
+[27.476s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/rosidl_interfaces/robx7_interfaces
+[27.477s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.json
+[27.477s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.json
+[27.478s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.json
+[27.478s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/custom_string.h
+[27.478s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__functions.h
+[27.478s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__struct.h
+[27.478s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__type_support.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__functions.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__struct.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__type_support.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/hardware_status.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_generator_c__visibility_control.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__functions.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__struct.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__type_support.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/sumar_dos_flotantes.h
+[27.479s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/library_path.sh
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/library_path.dsv
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_c.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_fastrtps_c.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_c.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.480s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_introspection_c.h
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/custom_string.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__builder.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__struct.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__traits.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__type_support.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__builder.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__struct.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__traits.hpp
+[27.481s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__type_support.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/hardware_status.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__builder.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__struct.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__traits.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__type_support.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/sumar_dos_flotantes.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_cpp.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_fastrtps_cpp.hpp
+[27.482s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp
+[27.483s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[27.483s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_introspection_cpp.hpp
+[27.483s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/pythonpath.sh
+[27.483s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/pythonpath.dsv
+[27.484s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[27.484s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_introspection_c.so
+[27.484s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_c.so
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/Cargo.toml
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/build.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/lib.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/msg.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/msg/rmw.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/srv.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/srv/rmw.rs
+[27.485s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.idl
+[27.486s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.idl
+[27.486s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.idl
+[27.487s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.msg
+[27.487s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.msg
+[27.487s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.srv
+[27.488s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/package_run_dependencies/robx7_interfaces
+[27.489s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/parent_prefix_path/robx7_interfaces
+[27.489s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/ament_prefix_path.sh
+[27.490s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/ament_prefix_path.dsv
+[27.490s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/path.sh
+[27.490s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/path.dsv
+[27.491s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.bash
+[27.491s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.fish
+[27.491s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.sh
+[27.492s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.zsh
+[27.492s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.dsv
+[27.492s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/package.dsv
+[27.493s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/packages/robx7_interfaces
+[27.493s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/PKG-INFO
+[27.493s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt
+[27.493s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt
+[27.493s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/top_level.txt
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/__init__.py
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_c.c
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/__init__.py
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_custom_string.py
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_custom_string_s.c
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_hardware_status.py
+[27.494s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_hardware_status_s.c
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/py.typed
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_c.so
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_introspection_c.so
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/__init__.py
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/_sumar_dos_flotantes.py
+[27.495s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/_sumar_dos_flotantes_s.c
+[27.496s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake-extras.cmake
+[27.496s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.496s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.497s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[27.497s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[27.498s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.498s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.498s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[27.499s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfacesConfig.cmake
+[27.499s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfacesConfig-version.cmake
+[27.499s] -- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/package.xml
+[27.506s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_generator_c.so
+[27.511s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_fastrtps_c.so
+[27.512s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_introspection_c.so
+[27.514s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_c.so
+[27.517s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[27.520s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_introspection_cpp.so
+[27.522s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_cpp.so
+[27.525s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_generator_py.so
+[27.527s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cExport.cmake
+[27.527s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cExport-noconfig.cmake
+[27.529s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[27.529s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.531s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[27.531s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.534s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cExport.cmake
+[27.534s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[27.536s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cppExport.cmake
+[27.538s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.538s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.540s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[27.540s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.542s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cppExport.cmake
+[27.542s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[27.544s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_pyExport.cmake
+[27.544s] -- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[27.586s] Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces'...
+[27.586s] Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg'...
+[27.586s] Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv'...
+[27.596s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces

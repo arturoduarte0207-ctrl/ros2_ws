@@ -1,0 +1,51 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (204.5s)
+-- Generating done (1.5s)
+-- Build files have been written to: /home/arturo-adahir-duarte/ros2_ws/build/robx7_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/common_properties.xacro
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/joystick.urdf
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7.urdf.xacro
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_arm.xacro
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_gripper.xacro
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/rviz/robx7_config.rviz
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/launch/robx7_display.launch.xml
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/package_run_dependencies/robx7_description
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/parent_prefix_path/robx7_description
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.bash
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.fish
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.sh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.zsh
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.dsv
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/packages/robx7_description
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig.cmake
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig-version.cmake
+-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.xml

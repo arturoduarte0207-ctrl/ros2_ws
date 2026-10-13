@@ -1,0 +1,17 @@
+[36.126s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/py_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arturo-adahir-duarte/ros2_ws/build/py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arturo-adahir-duarte/ros2_ws/build/py_example/build --no-deps symlink_data
+[36.127s] running develop
+[36.649s] running egg_info
+[36.661s] writing py_example.egg-info/PKG-INFO
+[37.139s] writing dependency_links to py_example.egg-info/dependency_links.txt
+[37.139s] writing entry points to py_example.egg-info/entry_points.txt
+[37.140s] writing requirements to py_example.egg-info/requires.txt
+[37.856s] writing top-level names to py_example.egg-info/top_level.txt
+[37.894s] reading manifest file 'py_example.egg-info/SOURCES.txt'
+[38.296s] writing manifest file 'py_example.egg-info/SOURCES.txt'
+[38.891s] running build_ext
+[38.891s] Creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages/py-example.egg-link (link to .)
+[39.244s] Installing test_node script to /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/py_example
+[39.245s] 
+[39.245s] Installed /home/arturo-adahir-duarte/ros2_ws/build/py_example
+[39.245s] running symlink_data
+[39.274s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/py_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arturo-adahir-duarte/ros2_ws/build/py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arturo-adahir-duarte/ros2_ws/build/py_example/build --no-deps symlink_data

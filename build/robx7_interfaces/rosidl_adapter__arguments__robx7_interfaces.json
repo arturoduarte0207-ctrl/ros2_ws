@@ -1,0 +1,8 @@
+{
+  "package_name": "robx7_interfaces",
+  "non_idl_tuples": [
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces:msg/HardwareStatus.msg",
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces:msg/CustomString.msg",
+    "/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/robx7_interfaces:srv/SumarDosFlotantes.srv"
+  ]
+}

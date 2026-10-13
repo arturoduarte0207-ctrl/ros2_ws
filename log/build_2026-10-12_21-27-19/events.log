@@ -1,0 +1,813 @@
+[0.000000] (-) TimerEvent: {}
+[0.000342] (py_example) JobQueued: {'identifier': 'py_example', 'dependencies': OrderedDict()}
+[0.000390] (robx7_description) JobQueued: {'identifier': 'robx7_description', 'dependencies': OrderedDict()}
+[0.000461] (robx7_interfaces) JobQueued: {'identifier': 'robx7_interfaces', 'dependencies': OrderedDict()}
+[0.000472] (actividad_3_pkg) JobQueued: {'identifier': 'actividad_3_pkg', 'dependencies': OrderedDict({'robx7_interfaces': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces'})}
+[0.000486] (cpp_example) JobQueued: {'identifier': 'cpp_example', 'dependencies': OrderedDict({'robx7_interfaces': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces'})}
+[0.000495] (robx7_bringup) JobQueued: {'identifier': 'robx7_bringup', 'dependencies': OrderedDict({'robx7_interfaces': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces', 'cpp_example': '/home/arturo-adahir-duarte/ros2_ws/install/cpp_example'})}
+[0.000705] (robx7_interfaces) JobStarted: {'identifier': 'robx7_interfaces'}
+[0.019201] (py_example) JobStarted: {'identifier': 'py_example'}
+[0.100061] (-) TimerEvent: {}
+[0.200721] (-) TimerEvent: {}
+[0.301321] (-) TimerEvent: {}
+[0.401908] (-) TimerEvent: {}
+[0.502349] (-) TimerEvent: {}
+[0.602948] (-) TimerEvent: {}
+[0.703516] (-) TimerEvent: {}
+[0.804121] (-) TimerEvent: {}
+[0.904724] (-) TimerEvent: {}
+[0.923866] (robx7_interfaces) JobProgress: {'identifier': 'robx7_interfaces', 'progress': 'cmake'}
+[1.004884] (-) TimerEvent: {}
+[1.103045] (robx7_interfaces) JobProgress: {'identifier': 'robx7_interfaces', 'progress': 'build'}
+[1.104253] (robx7_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[1.106350] (-) TimerEvent: {}
+[1.206900] (-) TimerEvent: {}
+[1.307332] (-) TimerEvent: {}
+[1.407701] (-) TimerEvent: {}
+[1.507992] (-) TimerEvent: {}
+[1.608545] (-) TimerEvent: {}
+[1.708997] (-) TimerEvent: {}
+[1.809361] (-) TimerEvent: {}
+[1.909820] (-) TimerEvent: {}
+[2.010269] (-) TimerEvent: {}
+[2.110702] (-) TimerEvent: {}
+[2.211037] (-) TimerEvent: {}
+[2.311290] (-) TimerEvent: {}
+[2.411778] (-) TimerEvent: {}
+[2.512249] (-) TimerEvent: {}
+[2.612809] (-) TimerEvent: {}
+[2.713424] (-) TimerEvent: {}
+[2.813885] (-) TimerEvent: {}
+[2.914179] (-) TimerEvent: {}
+[3.014640] (-) TimerEvent: {}
+[3.114956] (-) TimerEvent: {}
+[3.215419] (-) TimerEvent: {}
+[3.315772] (-) TimerEvent: {}
+[3.416286] (-) TimerEvent: {}
+[3.516731] (-) TimerEvent: {}
+[3.598841] (robx7_interfaces) StdoutLine: {'line': b'[  1%] Built target robx7_interfaces__rosidl_generator_type_description\n'}
+[3.606401] (robx7_interfaces) StdoutLine: {'line': b'[  3%] Built target robx7_interfaces__rs\n'}
+[3.616831] (-) TimerEvent: {}
+[3.629890] (robx7_interfaces) StdoutLine: {'line': b'[  5%] Built target robx7_interfaces__cpp\n'}
+[3.707804] (robx7_interfaces) StdoutLine: {'line': b'[ 25%] Built target robx7_interfaces__rosidl_generator_c\n'}
+[3.716956] (-) TimerEvent: {}
+[3.817275] (-) TimerEvent: {}
+[3.824443] (robx7_interfaces) StdoutLine: {'line': b'[ 34%] Built target robx7_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.867977] (robx7_interfaces) StdoutLine: {'line': b'[ 43%] Built target robx7_interfaces__rosidl_typesupport_c\n'}
+[3.917397] (-) TimerEvent: {}
+[4.017763] (-) TimerEvent: {}
+[4.118386] (-) TimerEvent: {}
+[4.218979] (-) TimerEvent: {}
+[4.319471] (-) TimerEvent: {}
+[4.420068] (-) TimerEvent: {}
+[4.520646] (-) TimerEvent: {}
+[4.621280] (-) TimerEvent: {}
+[4.721907] (-) TimerEvent: {}
+[4.822488] (-) TimerEvent: {}
+[4.923104] (-) TimerEvent: {}
+[5.023670] (-) TimerEvent: {}
+[5.124212] (-) TimerEvent: {}
+[6.062735] (-) TimerEvent: {}
+[6.123040] (robx7_interfaces) StdoutLine: {'line': b'[ 69%] Built target robx7_interfaces__rosidl_typesupport_cpp\n'}
+[6.123387] (robx7_interfaces) StdoutLine: {'line': b'[ 69%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.123552] (robx7_interfaces) StdoutLine: {'line': b'[ 70%] Built target robx7_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.162900] (-) TimerEvent: {}
+[6.263346] (-) TimerEvent: {}
+[6.363925] (-) TimerEvent: {}
+[6.464407] (-) TimerEvent: {}
+[6.565008] (-) TimerEvent: {}
+[6.665618] (-) TimerEvent: {}
+[6.766270] (-) TimerEvent: {}
+[6.866764] (-) TimerEvent: {}
+[6.967358] (-) TimerEvent: {}
+[7.067969] (-) TimerEvent: {}
+[7.168600] (-) TimerEvent: {}
+[7.269270] (-) TimerEvent: {}
+[7.369925] (-) TimerEvent: {}
+[7.470553] (-) TimerEvent: {}
+[7.571082] (-) TimerEvent: {}
+[7.620158] (robx7_interfaces) StdoutLine: {'line': b'[ 80%] Built target robx7_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.671369] (-) TimerEvent: {}
+[7.771984] (-) TimerEvent: {}
+[7.872565] (-) TimerEvent: {}
+[7.972999] (-) TimerEvent: {}
+[8.073585] (-) TimerEvent: {}
+[8.174153] (-) TimerEvent: {}
+[8.274657] (-) TimerEvent: {}
+[8.375238] (-) TimerEvent: {}
+[8.475698] (-) TimerEvent: {}
+[8.576272] (-) TimerEvent: {}
+[8.676688] (-) TimerEvent: {}
+[8.686838] (robx7_interfaces) StdoutLine: {'line': b'[ 80%] Built target robx7_interfaces\n'}
+[8.776865] (-) TimerEvent: {}
+[8.877333] (-) TimerEvent: {}
+[8.977787] (-) TimerEvent: {}
+[9.078380] (-) TimerEvent: {}
+[9.178978] (-) TimerEvent: {}
+[9.279544] (-) TimerEvent: {}
+[9.380035] (-) TimerEvent: {}
+[9.480505] (-) TimerEvent: {}
+[9.581084] (-) TimerEvent: {}
+[9.681687] (-) TimerEvent: {}
+[9.782298] (-) TimerEvent: {}
+[9.882915] (-) TimerEvent: {}
+[9.983369] (-) TimerEvent: {}
+[10.083954] (-) TimerEvent: {}
+[10.184545] (-) TimerEvent: {}
+[10.285138] (-) TimerEvent: {}
+[10.385629] (-) TimerEvent: {}
+[10.486089] (-) TimerEvent: {}
+[10.586681] (-) TimerEvent: {}
+[10.687304] (-) TimerEvent: {}
+[10.787917] (-) TimerEvent: {}
+[10.888478] (-) TimerEvent: {}
+[10.988955] (-) TimerEvent: {}
+[11.089512] (-) TimerEvent: {}
+[11.189992] (-) TimerEvent: {}
+[11.290549] (-) TimerEvent: {}
+[11.391085] (-) TimerEvent: {}
+[11.998733] (-) TimerEvent: {}
+[12.099336] (-) TimerEvent: {}
+[12.199929] (-) TimerEvent: {}
+[12.300476] (-) TimerEvent: {}
+[12.400986] (-) TimerEvent: {}
+[12.501567] (-) TimerEvent: {}
+[12.602082] (-) TimerEvent: {}
+[12.629006] (robx7_interfaces) StdoutLine: {'line': b'[ 81%] Built target robx7_interfaces__py\n'}
+[12.702352] (-) TimerEvent: {}
+[12.802956] (-) TimerEvent: {}
+[12.903406] (-) TimerEvent: {}
+[13.003978] (-) TimerEvent: {}
+[13.104561] (-) TimerEvent: {}
+[13.205134] (-) TimerEvent: {}
+[13.305724] (-) TimerEvent: {}
+[13.406195] (-) TimerEvent: {}
+[13.506775] (-) TimerEvent: {}
+[13.607257] (-) TimerEvent: {}
+[13.707728] (-) TimerEvent: {}
+[13.808215] (-) TimerEvent: {}
+[13.908717] (-) TimerEvent: {}
+[14.009242] (-) TimerEvent: {}
+[14.109690] (-) TimerEvent: {}
+[14.210152] (-) TimerEvent: {}
+[14.310569] (-) TimerEvent: {}
+[14.411027] (-) TimerEvent: {}
+[14.511545] (-) TimerEvent: {}
+[15.265513] (-) TimerEvent: {}
+[15.366076] (-) TimerEvent: {}
+[15.466558] (-) TimerEvent: {}
+[15.567081] (-) TimerEvent: {}
+[15.667594] (-) TimerEvent: {}
+[17.784937] (-) TimerEvent: {}
+[17.885544] (-) TimerEvent: {}
+[18.185573] (-) TimerEvent: {}
+[18.286217] (-) TimerEvent: {}
+[18.386836] (-) TimerEvent: {}
+[18.487471] (-) TimerEvent: {}
+[18.588079] (-) TimerEvent: {}
+[18.688632] (-) TimerEvent: {}
+[18.789209] (-) TimerEvent: {}
+[18.889684] (-) TimerEvent: {}
+[18.990165] (-) TimerEvent: {}
+[19.090702] (-) TimerEvent: {}
+[19.191210] (-) TimerEvent: {}
+[19.291711] (-) TimerEvent: {}
+[19.384054] (robx7_interfaces) StdoutLine: {'line': b'[ 89%] Built target robx7_interfaces__rosidl_generator_py\n'}
+[19.391832] (-) TimerEvent: {}
+[19.492224] (-) TimerEvent: {}
+[19.875006] (-) TimerEvent: {}
+[19.975529] (-) TimerEvent: {}
+[20.076082] (-) TimerEvent: {}
+[20.176616] (-) TimerEvent: {}
+[20.277135] (-) TimerEvent: {}
+[20.377654] (-) TimerEvent: {}
+[20.478129] (-) TimerEvent: {}
+[20.578692] (-) TimerEvent: {}
+[20.679197] (-) TimerEvent: {}
+[20.779782] (-) TimerEvent: {}
+[20.880263] (-) TimerEvent: {}
+[20.980769] (-) TimerEvent: {}
+[21.081229] (-) TimerEvent: {}
+[21.181672] (-) TimerEvent: {}
+[21.282352] (-) TimerEvent: {}
+[21.382798] (-) TimerEvent: {}
+[21.483245] (-) TimerEvent: {}
+[21.583796] (-) TimerEvent: {}
+[21.684270] (-) TimerEvent: {}
+[21.784815] (-) TimerEvent: {}
+[21.885330] (-) TimerEvent: {}
+[21.985759] (-) TimerEvent: {}
+[22.020582] (robx7_interfaces) StdoutLine: {'line': b'[ 92%] Built target robx7_interfaces_s__rosidl_typesupport_c\n'}
+[22.070006] (robx7_interfaces) StdoutLine: {'line': b'[ 96%] Built target robx7_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[22.085938] (-) TimerEvent: {}
+[22.186544] (-) TimerEvent: {}
+[22.287110] (-) TimerEvent: {}
+[22.387605] (-) TimerEvent: {}
+[24.158083] (robx7_interfaces) StdoutLine: {'line': b'[100%] Built target robx7_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[24.158462] (-) TimerEvent: {}
+[24.258813] (-) TimerEvent: {}
+[24.601065] (-) TimerEvent: {}
+[24.701676] (-) TimerEvent: {}
+[24.802299] (-) TimerEvent: {}
+[24.902932] (-) TimerEvent: {}
+[25.003509] (-) TimerEvent: {}
+[25.104141] (-) TimerEvent: {}
+[25.678626] (-) TimerEvent: {}
+[25.779049] (-) TimerEvent: {}
+[25.879512] (-) TimerEvent: {}
+[25.980051] (-) TimerEvent: {}
+[26.080498] (-) TimerEvent: {}
+[26.181022] (-) TimerEvent: {}
+[26.281450] (-) TimerEvent: {}
+[26.382074] (-) TimerEvent: {}
+[26.482682] (-) TimerEvent: {}
+[26.583298] (-) TimerEvent: {}
+[26.683900] (-) TimerEvent: {}
+[26.784308] (-) TimerEvent: {}
+[26.884863] (-) TimerEvent: {}
+[26.985485] (-) TimerEvent: {}
+[27.085937] (-) TimerEvent: {}
+[27.102333] (robx7_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_sync_robx7_interfaces\n'}
+[27.186027] (-) TimerEvent: {}
+[27.286304] (-) TimerEvent: {}
+[27.327640] (robx7_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[27.340244] (robx7_interfaces) StdoutLine: {'line': b'writing robx7_interfaces.egg-info/PKG-INFO\n'}
+[27.340542] (robx7_interfaces) StdoutLine: {'line': b'writing dependency_links to robx7_interfaces.egg-info/dependency_links.txt\n'}
+[27.346987] (robx7_interfaces) StdoutLine: {'line': b'writing top-level names to robx7_interfaces.egg-info/top_level.txt\n'}
+[27.386398] (-) TimerEvent: {}
+[27.391698] (robx7_interfaces) StdoutLine: {'line': b"reading manifest file 'robx7_interfaces.egg-info/SOURCES.txt'\n"}
+[27.394655] (robx7_interfaces) StdoutLine: {'line': b"writing manifest file 'robx7_interfaces.egg-info/SOURCES.txt'\n"}
+[27.420442] (robx7_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robx7_interfaces_egg\n'}
+[27.428242] (robx7_interfaces) CommandEnded: {'returncode': 0}
+[27.444371] (robx7_interfaces) JobProgress: {'identifier': 'robx7_interfaces', 'progress': 'install'}
+[27.462145] (robx7_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[27.474155] (robx7_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.476394] (robx7_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.477195] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/rosidl_interfaces/robx7_interfaces\n'}
+[27.477537] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.json\n'}
+[27.477989] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.json\n'}
+[27.478595] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.json\n'}
+[27.478904] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/custom_string.h\n'}
+[27.479034] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__functions.h\n'}
+[27.479125] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__struct.h\n'}
+[27.479225] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__type_support.h\n'}
+[27.479353] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__functions.h\n'}
+[27.479450] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__struct.h\n'}
+[27.479543] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[27.479629] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/hardware_status.h\n'}
+[27.479704] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.479774] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__functions.h\n'}
+[27.479841] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__struct.h\n'}
+[27.479914] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__type_support.h\n'}
+[27.480006] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/sumar_dos_flotantes.h\n'}
+[27.480094] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/library_path.sh\n'}
+[27.480356] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/library_path.dsv\n'}
+[27.480658] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_c.h\n'}
+[27.480760] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[27.480861] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.480935] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_fastrtps_c.h\n'}
+[27.481034] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_c.h\n'}
+[27.481126] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[27.481223] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.481295] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_introspection_c.h\n'}
+[27.481448] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/custom_string.hpp\n'}
+[27.481542] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__builder.hpp\n'}
+[27.481659] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__struct.hpp\n'}
+[27.481779] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__traits.hpp\n'}
+[27.481888] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__type_support.hpp\n'}
+[27.481975] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[27.482074] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[27.482175] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[27.482266] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__type_support.hpp\n'}
+[27.482346] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/hardware_status.hpp\n'}
+[27.482414] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[27.482484] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__builder.hpp\n'}
+[27.482555] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__struct.hpp\n'}
+[27.482628] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__traits.hpp\n'}
+[27.482735] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__type_support.hpp\n'}
+[27.482826] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/sumar_dos_flotantes.hpp\n'}
+[27.482901] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.482995] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.483095] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.483169] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.483237] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/custom_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.483311] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.483379] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/include/robx7_interfaces/robx7_interfaces/srv/detail/sumar_dos_flotantes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.483545] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/pythonpath.sh\n'}
+[27.483894] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/pythonpath.dsv\n'}
+[27.484286] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.484726] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[27.485080] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_c.so\n'}
+[27.485284] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/Cargo.toml\n'}
+[27.485382] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/build.rs\n'}
+[27.485481] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/lib.rs\n'}
+[27.485572] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/msg.rs\n'}
+[27.485656] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/msg/rmw.rs\n'}
+[27.485724] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/srv.rs\n'}
+[27.485791] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/rust/src/srv/rmw.rs\n'}
+[27.485995] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.idl\n'}
+[27.486442] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.idl\n'}
+[27.486533] (-) TimerEvent: {}
+[27.487067] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.idl\n'}
+[27.487428] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/HardwareStatus.msg\n'}
+[27.487977] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/msg/CustomString.msg\n'}
+[27.488304] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/srv/SumarDosFlotantes.srv\n'}
+[27.488857] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/package_run_dependencies/robx7_interfaces\n'}
+[27.489421] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/parent_prefix_path/robx7_interfaces\n'}
+[27.489928] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/ament_prefix_path.sh\n'}
+[27.490310] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/ament_prefix_path.dsv\n'}
+[27.490685] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/path.sh\n'}
+[27.491042] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/environment/path.dsv\n'}
+[27.491403] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.bash\n'}
+[27.491763] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.fish\n'}
+[27.492189] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.sh\n'}
+[27.492540] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.zsh\n'}
+[27.492919] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/local_setup.dsv\n'}
+[27.493280] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/package.dsv\n'}
+[27.493681] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/ament_index/resource_index/packages/robx7_interfaces\n'}
+[27.493894] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/PKG-INFO\n'}
+[27.494004] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt\n'}
+[27.494091] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt\n'}
+[27.494186] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces-0.0.0-py3.14.egg-info/top_level.txt\n'}
+[27.494525] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/__init__.py\n'}
+[27.494621] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[27.494714] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.494803] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/_robx7_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.494900] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/__init__.py\n'}
+[27.494986] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_custom_string.py\n'}
+[27.495071] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_custom_string_s.c\n'}
+[27.495157] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_hardware_status.py\n'}
+[27.495243] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg/_hardware_status_s.c\n'}
+[27.495328] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/py.typed\n'}
+[27.495411] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_c.so\n'}
+[27.495500] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[27.495585] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/robx7_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[27.495668] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/__init__.py\n'}
+[27.495751] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/_sumar_dos_flotantes.py\n'}
+[27.495825] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv/_sumar_dos_flotantes_s.c\n'}
+[27.496567] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[27.496932] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.497294] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.497633] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.497995] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.498488] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.498830] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.499290] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[27.499711] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfacesConfig.cmake\n'}
+[27.499774] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfacesConfig-version.cmake\n'}
+[27.500075] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/package.xml\n'}
+[27.507279] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_generator_c.so\n'}
+[27.512049] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[27.512679] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[27.515008] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_c.so\n'}
+[27.517994] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.520518] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[27.522905] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_typesupport_cpp.so\n'}
+[27.525843] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/librobx7_interfaces__rosidl_generator_py.so\n'}
+[27.527803] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cExport.cmake\n'}
+[27.527908] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.529810] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.529946] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.532090] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.532224] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.534280] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[27.534412] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.536363] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_cppExport.cmake\n'}
+[27.538484] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.538617] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.540587] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.540721] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.542844] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[27.542985] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/robx7_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.545076] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_pyExport.cmake\n'}
+[27.545223] (robx7_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake/export_robx7_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.586637] (-) TimerEvent: {}
+[27.586985] (robx7_interfaces) StdoutLine: {'line': b"Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces'...\n"}
+[27.587152] (robx7_interfaces) StdoutLine: {'line': b"Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/msg'...\n"}
+[27.587234] (robx7_interfaces) StdoutLine: {'line': b"Listing '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages/robx7_interfaces/srv'...\n"}
+[27.596090] (robx7_interfaces) CommandEnded: {'returncode': 0}
+[27.686724] (-) TimerEvent: {}
+[27.787045] (-) TimerEvent: {}
+[27.887382] (-) TimerEvent: {}
+[27.987856] (-) TimerEvent: {}
+[28.088385] (-) TimerEvent: {}
+[28.188903] (-) TimerEvent: {}
+[28.289413] (-) TimerEvent: {}
+[28.389973] (-) TimerEvent: {}
+[28.490458] (-) TimerEvent: {}
+[28.590939] (-) TimerEvent: {}
+[28.691373] (-) TimerEvent: {}
+[28.791796] (-) TimerEvent: {}
+[28.892195] (-) TimerEvent: {}
+[28.992619] (-) TimerEvent: {}
+[29.093054] (-) TimerEvent: {}
+[29.193487] (-) TimerEvent: {}
+[29.293945] (-) TimerEvent: {}
+[29.394381] (-) TimerEvent: {}
+[29.494825] (-) TimerEvent: {}
+[29.595244] (-) TimerEvent: {}
+[29.695667] (-) TimerEvent: {}
+[29.796207] (-) TimerEvent: {}
+[29.896764] (-) TimerEvent: {}
+[29.997227] (-) TimerEvent: {}
+[30.097677] (-) TimerEvent: {}
+[30.198167] (-) TimerEvent: {}
+[30.298731] (-) TimerEvent: {}
+[30.399351] (-) TimerEvent: {}
+[30.499941] (-) TimerEvent: {}
+[30.600514] (-) TimerEvent: {}
+[30.700973] (-) TimerEvent: {}
+[30.801425] (-) TimerEvent: {}
+[30.901967] (-) TimerEvent: {}
+[31.002514] (-) TimerEvent: {}
+[31.103052] (-) TimerEvent: {}
+[31.203482] (-) TimerEvent: {}
+[31.303992] (-) TimerEvent: {}
+[31.404430] (-) TimerEvent: {}
+[31.504993] (-) TimerEvent: {}
+[31.605428] (-) TimerEvent: {}
+[31.705894] (-) TimerEvent: {}
+[31.806414] (-) TimerEvent: {}
+[31.906904] (-) TimerEvent: {}
+[32.007324] (-) TimerEvent: {}
+[32.107750] (-) TimerEvent: {}
+[32.208167] (-) TimerEvent: {}
+[32.308580] (-) TimerEvent: {}
+[32.408994] (-) TimerEvent: {}
+[32.509429] (-) TimerEvent: {}
+[32.609879] (-) TimerEvent: {}
+[32.710294] (-) TimerEvent: {}
+[32.810720] (-) TimerEvent: {}
+[32.911144] (-) TimerEvent: {}
+[33.011558] (-) TimerEvent: {}
+[33.111996] (-) TimerEvent: {}
+[33.212417] (-) TimerEvent: {}
+[33.312855] (-) TimerEvent: {}
+[33.413435] (-) TimerEvent: {}
+[33.514003] (-) TimerEvent: {}
+[33.614568] (-) TimerEvent: {}
+[33.714982] (-) TimerEvent: {}
+[33.815538] (-) TimerEvent: {}
+[33.916061] (-) TimerEvent: {}
+[34.016597] (-) TimerEvent: {}
+[34.117201] (-) TimerEvent: {}
+[34.217686] (-) TimerEvent: {}
+[34.318239] (-) TimerEvent: {}
+[34.418775] (-) TimerEvent: {}
+[34.519273] (-) TimerEvent: {}
+[34.619788] (-) TimerEvent: {}
+[34.720224] (-) TimerEvent: {}
+[34.808440] (robx7_interfaces) JobEnded: {'identifier': 'robx7_interfaces', 'rc': 0}
+[35.334924] (-) TimerEvent: {}
+[35.335173] (cpp_example) JobStarted: {'identifier': 'cpp_example'}
+[35.335270] (py_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/arturo-adahir-duarte/ros2_ws/build/py_example/build', '--no-deps', 'symlink_data'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/py_example', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/py_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/build/py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[36.146151] (-) TimerEvent: {}
+[36.146342] (py_example) StdoutLine: {'line': b'running develop\n'}
+[36.246435] (-) TimerEvent: {}
+[36.347010] (-) TimerEvent: {}
+[36.447562] (-) TimerEvent: {}
+[36.547986] (-) TimerEvent: {}
+[36.648425] (-) TimerEvent: {}
+[36.667831] (py_example) StdoutLine: {'line': b'running egg_info\n'}
+[36.680051] (py_example) StdoutLine: {'line': b'writing py_example.egg-info/PKG-INFO\n'}
+[36.748684] (-) TimerEvent: {}
+[36.849132] (-) TimerEvent: {}
+[36.949667] (-) TimerEvent: {}
+[37.050114] (-) TimerEvent: {}
+[37.150548] (-) TimerEvent: {}
+[37.158383] (py_example) StdoutLine: {'line': b'writing dependency_links to py_example.egg-info/dependency_links.txt\n'}
+[37.158753] (py_example) StdoutLine: {'line': b'writing entry points to py_example.egg-info/entry_points.txt\n'}
+[37.159383] (py_example) StdoutLine: {'line': b'writing requirements to py_example.egg-info/requires.txt\n'}
+[37.165385] (cpp_example) JobProgress: {'identifier': 'cpp_example', 'progress': 'cmake'}
+[37.166525] (cpp_example) Command: {'cmd': ['/usr/bin/cmake', '/home/arturo-adahir-duarte/ros2_ws/src/ProgRob2026B/cpp_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/cpp_example'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/cpp_example', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/cpp_example', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[37.250715] (-) TimerEvent: {}
+[37.351162] (-) TimerEvent: {}
+[37.451740] (-) TimerEvent: {}
+[37.552244] (-) TimerEvent: {}
+[37.652698] (-) TimerEvent: {}
+[37.753148] (-) TimerEvent: {}
+[37.853947] (-) TimerEvent: {}
+[37.875660] (py_example) StdoutLine: {'line': b'writing top-level names to py_example.egg-info/top_level.txt\n'}
+[37.913110] (py_example) StdoutLine: {'line': b"reading manifest file 'py_example.egg-info/SOURCES.txt'\n"}
+[37.954064] (-) TimerEvent: {}
+[38.054614] (-) TimerEvent: {}
+[38.155109] (-) TimerEvent: {}
+[38.255684] (-) TimerEvent: {}
+[38.314966] (py_example) StdoutLine: {'line': b"writing manifest file 'py_example.egg-info/SOURCES.txt'\n"}
+[38.355972] (-) TimerEvent: {}
+[38.456553] (-) TimerEvent: {}
+[38.557119] (-) TimerEvent: {}
+[38.657569] (-) TimerEvent: {}
+[38.758101] (-) TimerEvent: {}
+[38.858691] (-) TimerEvent: {}
+[38.910038] (py_example) StdoutLine: {'line': b'running build_ext\n'}
+[38.910153] (py_example) StdoutLine: {'line': b'Creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages/py-example.egg-link (link to .)\n'}
+[38.958969] (-) TimerEvent: {}
+[39.059528] (-) TimerEvent: {}
+[39.160056] (-) TimerEvent: {}
+[39.260507] (-) TimerEvent: {}
+[39.261700] (cpp_example) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[39.262164] (cpp_example) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[39.262392] (cpp_example) StderrLine: {'line': b'  CMake.\n'}
+[39.262596] (cpp_example) StderrLine: {'line': b'\n'}
+[39.262790] (cpp_example) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[39.262961] (cpp_example) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[39.263091] (cpp_example) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[39.263218] (cpp_example) StderrLine: {'line': b'\n'}
+[39.263342] (cpp_example) StderrLine: {'line': b'\x1b[0m\n'}
+[39.263553] (py_example) StdoutLine: {'line': b'Installing test_node script to /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/py_example\n'}
+[39.263801] (py_example) StdoutLine: {'line': b'\n'}
+[39.264027] (py_example) StdoutLine: {'line': b'Installed /home/arturo-adahir-duarte/ros2_ws/build/py_example\n'}
+[39.264231] (py_example) StdoutLine: {'line': b'running symlink_data\n'}
+[39.293031] (py_example) CommandEnded: {'returncode': 0}
+[39.360766] (-) TimerEvent: {}
+[39.461350] (-) TimerEvent: {}
+[39.561931] (-) TimerEvent: {}
+[39.662428] (-) TimerEvent: {}
+[39.763002] (-) TimerEvent: {}
+[39.863559] (-) TimerEvent: {}
+[39.964086] (-) TimerEvent: {}
+[40.064649] (-) TimerEvent: {}
+[40.165050] (-) TimerEvent: {}
+[40.168208] (py_example) JobEnded: {'identifier': 'py_example', 'rc': 0}
+[40.508259] (-) TimerEvent: {}
+[41.546515] (robx7_description) JobStarted: {'identifier': 'robx7_description'}
+[41.546670] (-) TimerEvent: {}
+[41.546831] (robx7_description) JobProgress: {'identifier': 'robx7_description', 'progress': 'cmake'}
+[41.646987] (-) TimerEvent: {}
+[41.747620] (-) TimerEvent: {}
+[41.848170] (-) TimerEvent: {}
+[41.948625] (-) TimerEvent: {}
+[42.049091] (-) TimerEvent: {}
+[42.149635] (-) TimerEvent: {}
+[42.250136] (-) TimerEvent: {}
+[42.287232] (robx7_description) JobProgress: {'identifier': 'robx7_description', 'progress': 'build'}
+[42.287380] (robx7_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', '--', '-j8', '-l8'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[42.350286] (-) TimerEvent: {}
+[42.450752] (-) TimerEvent: {}
+[42.551221] (-) TimerEvent: {}
+[42.651662] (-) TimerEvent: {}
+[42.752120] (-) TimerEvent: {}
+[42.852607] (-) TimerEvent: {}
+[42.953073] (-) TimerEvent: {}
+[43.053540] (-) TimerEvent: {}
+[43.153997] (-) TimerEvent: {}
+[43.254455] (-) TimerEvent: {}
+[43.823504] (-) TimerEvent: {}
+[43.924074] (-) TimerEvent: {}
+[43.979899] (robx7_description) CommandEnded: {'returncode': 0}
+[44.022583] (robx7_description) JobProgress: {'identifier': 'robx7_description', 'progress': 'install'}
+[44.023574] (robx7_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/robx7_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[44.024307] (-) TimerEvent: {}
+[44.058332] (robx7_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.071063] (robx7_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[44.124482] (-) TimerEvent: {}
+[44.224955] (-) TimerEvent: {}
+[44.325550] (-) TimerEvent: {}
+[44.355837] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/common_properties.xacro\n'}
+[44.356198] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/joystick.urdf\n'}
+[44.356497] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7.urdf.xacro\n'}
+[44.356663] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_arm.xacro\n'}
+[44.356786] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/urdf/robx7_gripper.xacro\n'}
+[44.375225] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/rviz/robx7_config.rviz\n'}
+[44.425718] (-) TimerEvent: {}
+[44.526330] (-) TimerEvent: {}
+[44.626921] (-) TimerEvent: {}
+[44.667827] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/launch/robx7_display.launch.xml\n'}
+[44.677042] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/package_run_dependencies/robx7_description\n'}
+[44.727186] (-) TimerEvent: {}
+[44.827645] (-) TimerEvent: {}
+[44.928220] (-) TimerEvent: {}
+[44.946359] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/parent_prefix_path/robx7_description\n'}
+[44.957568] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.sh\n'}
+[44.962744] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/ament_prefix_path.dsv\n'}
+[44.971811] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.sh\n'}
+[44.982742] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/environment/path.dsv\n'}
+[44.989062] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.bash\n'}
+[44.999965] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.fish\n'}
+[45.018063] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.sh\n'}
+[45.024585] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.zsh\n'}
+[45.028293] (-) TimerEvent: {}
+[45.029909] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/local_setup.dsv\n'}
+[45.038135] (robx7_description) StdoutLine: {'line': b'-- Symlinking: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.dsv\n'}
+[45.057509] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/ament_index/resource_index/packages/robx7_description\n'}
+[45.066474] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig.cmake\n'}
+[45.066738] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/cmake/robx7_descriptionConfig-version.cmake\n'}
+[45.080464] (robx7_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arturo-adahir-duarte/ros2_ws/install/robx7_description/share/robx7_description/package.xml\n'}
+[45.083357] (robx7_description) CommandEnded: {'returncode': 0}
+[45.128465] (-) TimerEvent: {}
+[45.229063] (-) TimerEvent: {}
+[45.329548] (-) TimerEvent: {}
+[45.430094] (-) TimerEvent: {}
+[45.530674] (-) TimerEvent: {}
+[45.631320] (-) TimerEvent: {}
+[45.692550] (robx7_description) JobEnded: {'identifier': 'robx7_description', 'rc': 0}
+[45.703966] (actividad_3_pkg) JobStarted: {'identifier': 'actividad_3_pkg'}
+[45.713581] (actividad_3_pkg) JobProgress: {'identifier': 'actividad_3_pkg', 'progress': 'cmake'}
+[45.714614] (actividad_3_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arturo-adahir-duarte/ros2_ws/install/actividad_3_pkg'], 'cwd': '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arturo-adahir-duarte', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/arturo-adahir-duarte', 'OLDPWD': '/home/arturo-adahir-duarte/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3412', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3444', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'arturo-adahir-duarte', 'MANAGERPIDFDID': '12844', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arturo-adahir-duarte', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '2d2ded76651243218e78ab24d5e7b35c', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '60f798e0939188c04c97b0896acb2335', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MZJ5W3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=c2a4c3fe46fd3cfbea56a7dd6acda08c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/lib/python3.14/site-packages:/home/arturo-adahir-duarte/ros2_ws/build/py_example:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces:/home/arturo-adahir-duarte/ros2_ws/install/robx7_description:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/home/arturo-adahir-duarte/ros2_ws/install/py_example:/opt/ros/lyrical'}), 'shell': False}
+[45.731426] (-) TimerEvent: {}
+[45.831795] (-) TimerEvent: {}
+[45.932360] (-) TimerEvent: {}
+[46.032781] (-) TimerEvent: {}
+[46.133037] (-) TimerEvent: {}
+[46.233335] (-) TimerEvent: {}
+[46.333735] (-) TimerEvent: {}
+[46.434230] (-) TimerEvent: {}
+[46.534887] (-) TimerEvent: {}
+[46.922118] (-) TimerEvent: {}
+[47.022717] (-) TimerEvent: {}
+[47.107919] (cpp_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[47.108447] (actividad_3_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[47.122882] (-) TimerEvent: {}
+[47.223315] (-) TimerEvent: {}
+[47.323909] (-) TimerEvent: {}
+[47.424339] (-) TimerEvent: {}
+[47.524726] (-) TimerEvent: {}
+[47.625185] (-) TimerEvent: {}
+[47.725622] (-) TimerEvent: {}
+[47.826065] (-) TimerEvent: {}
+[47.926579] (-) TimerEvent: {}
+[48.026989] (-) TimerEvent: {}
+[48.127455] (-) TimerEvent: {}
+[48.227911] (-) TimerEvent: {}
+[48.328340] (-) TimerEvent: {}
+[48.428783] (-) TimerEvent: {}
+[48.529251] (-) TimerEvent: {}
+[48.533433] (actividad_3_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[48.533693] (cpp_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[48.559006] (cpp_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[48.559265] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[48.629517] (-) TimerEvent: {}
+[48.730094] (-) TimerEvent: {}
+[48.830678] (-) TimerEvent: {}
+[48.931156] (-) TimerEvent: {}
+[49.031590] (-) TimerEvent: {}
+[49.132206] (-) TimerEvent: {}
+[49.232806] (-) TimerEvent: {}
+[49.333399] (-) TimerEvent: {}
+[49.433883] (-) TimerEvent: {}
+[49.534412] (-) TimerEvent: {}
+[49.634942] (-) TimerEvent: {}
+[49.735447] (-) TimerEvent: {}
+[49.835966] (-) TimerEvent: {}
+[49.936414] (-) TimerEvent: {}
+[50.036930] (-) TimerEvent: {}
+[50.137375] (-) TimerEvent: {}
+[50.237831] (-) TimerEvent: {}
+[50.338296] (-) TimerEvent: {}
+[50.438744] (-) TimerEvent: {}
+[50.539187] (-) TimerEvent: {}
+[50.639623] (-) TimerEvent: {}
+[50.740073] (-) TimerEvent: {}
+[50.840584] (-) TimerEvent: {}
+[50.940981] (-) TimerEvent: {}
+[50.972840] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[50.973918] (cpp_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[51.041100] (-) TimerEvent: {}
+[51.141542] (-) TimerEvent: {}
+[51.242032] (-) TimerEvent: {}
+[51.342602] (-) TimerEvent: {}
+[51.443071] (-) TimerEvent: {}
+[51.542670] (actividad_3_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[51.542974] (cpp_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[51.543118] (-) TimerEvent: {}
+[51.643550] (-) TimerEvent: {}
+[51.744142] (-) TimerEvent: {}
+[51.844737] (-) TimerEvent: {}
+[51.945189] (-) TimerEvent: {}
+[52.045792] (-) TimerEvent: {}
+[52.146407] (-) TimerEvent: {}
+[52.246891] (-) TimerEvent: {}
+[52.347340] (-) TimerEvent: {}
+[52.447847] (-) TimerEvent: {}
+[52.548438] (-) TimerEvent: {}
+[52.649061] (-) TimerEvent: {}
+[52.749576] (-) TimerEvent: {}
+[52.757738] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[52.758165] (cpp_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[52.849740] (-) TimerEvent: {}
+[52.950307] (-) TimerEvent: {}
+[53.050836] (-) TimerEvent: {}
+[53.151352] (-) TimerEvent: {}
+[53.251819] (-) TimerEvent: {}
+[53.352358] (-) TimerEvent: {}
+[53.452909] (-) TimerEvent: {}
+[53.553354] (-) TimerEvent: {}
+[53.653814] (-) TimerEvent: {}
+[53.711974] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[53.712376] (cpp_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[53.753973] (-) TimerEvent: {}
+[53.854445] (-) TimerEvent: {}
+[53.954899] (-) TimerEvent: {}
+[54.055463] (-) TimerEvent: {}
+[54.156045] (-) TimerEvent: {}
+[54.256615] (-) TimerEvent: {}
+[54.357248] (-) TimerEvent: {}
+[54.457695] (-) TimerEvent: {}
+[54.558157] (-) TimerEvent: {}
+[54.658737] (-) TimerEvent: {}
+[54.759314] (-) TimerEvent: {}
+[54.859917] (-) TimerEvent: {}
+[54.960387] (-) TimerEvent: {}
+[55.060972] (-) TimerEvent: {}
+[55.161569] (-) TimerEvent: {}
+[55.262200] (-) TimerEvent: {}
+[55.362818] (-) TimerEvent: {}
+[55.463304] (-) TimerEvent: {}
+[55.563891] (-) TimerEvent: {}
+[55.664374] (-) TimerEvent: {}
+[55.765006] (-) TimerEvent: {}
+[55.865522] (-) TimerEvent: {}
+[55.965993] (-) TimerEvent: {}
+[56.066433] (-) TimerEvent: {}
+[56.166936] (-) TimerEvent: {}
+[56.267435] (-) TimerEvent: {}
+[56.368011] (-) TimerEvent: {}
+[56.468489] (-) TimerEvent: {}
+[56.568938] (-) TimerEvent: {}
+[56.669404] (-) TimerEvent: {}
+[58.175729] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[58.175978] (-) TimerEvent: {}
+[58.176102] (cpp_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[58.276078] (-) TimerEvent: {}
+[58.294394] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[58.294626] (cpp_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[58.305158] (actividad_3_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[58.305293] (cpp_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[58.305421] (cpp_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[58.305478] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[58.306136] (actividad_3_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[58.306191] (cpp_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[58.350210] (actividad_3_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[58.350332] (cpp_example) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[58.376232] (-) TimerEvent: {}
+[58.476546] (-) TimerEvent: {}
+[58.576759] (-) TimerEvent: {}
+[58.594957] (cpp_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[58.595127] (actividad_3_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[58.676944] (-) TimerEvent: {}
+[58.777525] (-) TimerEvent: {}
+[58.878118] (-) TimerEvent: {}
+[58.978681] (-) TimerEvent: {}
+[59.079158] (-) TimerEvent: {}
+[59.179612] (-) TimerEvent: {}
+[59.280159] (-) TimerEvent: {}
+[59.380659] (-) TimerEvent: {}
+[59.481138] (-) TimerEvent: {}
+[59.564883] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[59.565026] (cpp_example) StdoutLine: {'line': b'-- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[59.581222] (-) TimerEvent: {}
+[59.636846] (cpp_example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[59.637171] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[59.654451] (cpp_example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[59.654559] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[59.681299] (-) TimerEvent: {}
+[59.697023] (cpp_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[59.697317] (actividad_3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[59.726100] (cpp_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[59.726250] (actividad_3_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[59.781396] (-) TimerEvent: {}
+[59.852107] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[59.852232] (cpp_example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[59.858570] (cpp_example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[59.858656] (actividad_3_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[59.881482] (-) TimerEvent: {}
+[59.922237] (actividad_3_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[59.922395] (cpp_example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[59.981600] (-) TimerEvent: {}
+[60.042833] (actividad_3_pkg) StdoutLine: {'line': b'-- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)\n'}
+[60.045752] (cpp_example) StdoutLine: {'line': b'-- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)\n'}
+[60.081688] (-) TimerEvent: {}
+[60.082754] (actividad_3_pkg) StdoutLine: {'line': b'-- Found std_srvs: 5.9.3 (/opt/ros/lyrical/share/std_srvs/cmake)\n'}
+[60.094101] (cpp_example) StdoutLine: {'line': b'-- Found example_interfaces: 0.14.1 (/opt/ros/lyrical/share/example_interfaces/cmake)\n'}
+[60.141753] (actividad_3_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[60.181776] (-) TimerEvent: {}
+[60.220520] (cpp_example) StdoutLine: {'line': b'-- Found robx7_interfaces: 0.0.0 (/home/arturo-adahir-duarte/ros2_ws/install/robx7_interfaces/share/robx7_interfaces/cmake)\n'}
+[60.230777] (cpp_example) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (ament_target_dependencies):\n'}
+[60.230889] (cpp_example) StderrLine: {'line': b'  Unknown CMake command "ament_target_dependencies".\n'}
+[60.230935] (cpp_example) StderrLine: {'line': b'\n'}
+[60.230972] (cpp_example) StderrLine: {'line': b'\x1b[0m\n'}
+[60.231034] (cpp_example) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[60.237027] (cpp_example) CommandEnded: {'returncode': 1}
+[60.250750] (cpp_example) JobEnded: {'identifier': 'cpp_example', 'rc': 1}
+[60.271627] (actividad_3_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[60.271791] (actividad_3_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[60.271838] (actividad_3_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[60.273764] (actividad_3_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[60.276093] (actividad_3_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[60.276161] (actividad_3_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[60.281866] (-) TimerEvent: {}
+[60.287115] (actividad_3_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[60.381998] (-) TimerEvent: {}
+[60.482489] (-) TimerEvent: {}
+[60.582984] (-) TimerEvent: {}
+[60.683419] (-) TimerEvent: {}
+[60.783887] (-) TimerEvent: {}
+[60.883266] (actividad_3_pkg) StdoutLine: {'line': b'-- Configuring done (15.2s)\n'}
+[60.883914] (-) TimerEvent: {}
+[60.949316] (actividad_3_pkg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[60.984016] (-) TimerEvent: {}
+[60.992857] (actividad_3_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg\n'}
+[60.997834] (actividad_3_pkg) JobEnded: {'identifier': 'actividad_3_pkg', 'rc': 'SIGINT'}
+[61.008261] (robx7_bringup) JobSkipped: {'identifier': 'robx7_bringup'}
+[61.008294] (-) EventReactorShutdown: {}

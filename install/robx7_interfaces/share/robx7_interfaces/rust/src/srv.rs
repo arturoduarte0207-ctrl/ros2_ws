@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/robx7_interfaces/rosidl_generator_rs/robx7_interfaces/rust/src/srv.rs

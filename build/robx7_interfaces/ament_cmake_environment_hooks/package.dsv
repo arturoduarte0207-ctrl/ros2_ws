@@ -1,0 +1,5 @@
+source;share/robx7_interfaces/local_setup.bash
+source;share/robx7_interfaces/local_setup.dsv
+source;share/robx7_interfaces/local_setup.fish
+source;share/robx7_interfaces/local_setup.sh
+source;share/robx7_interfaces/local_setup.zsh

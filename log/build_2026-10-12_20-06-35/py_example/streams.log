@@ -1,0 +1,22 @@
+[86.801s] Invoking command in '/home/arturo-adahir-duarte/ros2_ws/build/py_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arturo-adahir-duarte/ros2_ws/build/py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arturo-adahir-duarte/ros2_ws/build/py_example/build --no-deps symlink_data
+[87.004s] running develop
+[87.119s] running egg_info
+[87.131s] creating py_example.egg-info
+[87.131s] writing py_example.egg-info/PKG-INFO
+[87.132s] writing dependency_links to py_example.egg-info/dependency_links.txt
+[87.132s] writing entry points to py_example.egg-info/entry_points.txt
+[87.132s] writing requirements to py_example.egg-info/requires.txt
+[87.132s] writing top-level names to py_example.egg-info/top_level.txt
+[87.132s] writing manifest file 'py_example.egg-info/SOURCES.txt'
+[87.161s] reading manifest file 'py_example.egg-info/SOURCES.txt'
+[87.161s] writing manifest file 'py_example.egg-info/SOURCES.txt'
+[87.730s] running build_ext
+[87.730s] Creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages/py-example.egg-link (link to .)
+[87.731s] Installing test_node script to /home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/py_example
+[87.731s] 
+[87.731s] Installed /home/arturo-adahir-duarte/ros2_ws/build/py_example
+[87.731s] running symlink_data
+[87.731s] creating /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/ament_index/resource_index/packages
+[87.731s] symbolically linking /home/arturo-adahir-duarte/ros2_ws/build/py_example/resource/py_example -> /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/ament_index/resource_index/packages
+[87.731s] symbolically linking /home/arturo-adahir-duarte/ros2_ws/build/py_example/package.xml -> /home/arturo-adahir-duarte/ros2_ws/install/py_example/share/py_example
+[87.759s] Invoked command in '/home/arturo-adahir-duarte/ros2_ws/build/py_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/arturo-adahir-duarte/ros2_ws/build/py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arturo-adahir-duarte/ros2_ws/install/py_example/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arturo-adahir-duarte/ros2_ws/build/py_example/build --no-deps symlink_data

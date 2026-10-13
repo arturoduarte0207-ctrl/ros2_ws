@@ -1,0 +1,1 @@
+/home/arturo-adahir-duarte/ros2_ws/build/actividad_3_pkg/ament_cmake_environment_hooks/local_setup.fish

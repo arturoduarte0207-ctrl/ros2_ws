@@ -1,0 +1,25 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+                 from [01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:1[m[K:
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:[m[K In member function ‘[01m[Kvoid EmulatorNode::[01;32m[Kpublish_status[m[K()[m[K’:
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:20:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint[m[K[m[K’, but argument 5 has type ‘[01m[K[01;34m[Krobx7_interfaces::msg::HardwareStatus_<std::allocator<void> >::_temperatura_type[m[K’ {aka ‘[01m[K[01;34m[Klong int[m[K’}[m[K [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+   20 |     RCLCPP_INFO(this->get_logger(), [01;32m[K"[m[K[01;32m[KP[m[K[01;32m[Ku[m[K[01;32m[Kb[m[K[01;32m[Kl[m[K[01;32m[Ki[m[K[01;32m[Kc[m[K[01;32m[Ka[m[K[01;32m[Kn[m[K[01;32m[Kd[m[K[01;32m[Ko[m[K[01;32m[K [m[K[01;32m[KT[m[K[01;32m[Ke[m[K[01;32m[Km[m[K[01;32m[Kp[m[K[01;32m[Ke[m[K[01;32m[Kr[m[K[01;32m[Ka[m[K[01;32m[Kt[m[K[01;32m[Ku[m[K[01;32m[Kr[m[K[01;32m[Ka[m[K[01;32m[K:[m[K[01;32m[K [m[K[01;32m[K%[m[K[01;32m[Kd[m[K[01;32m[K [m[K[01;32m[KC[m[K[01;32m[K"[m[K, [01;34m[Km[m[K[01;34m[Ks[m[K[01;34m[Kg[m[K[01;34m[K.[m[K[01;34m[Kt[m[K[01;34m[Ke[m[K[01;34m[Km[m[K[01;34m[Kp[m[K[01;34m[Ke[m[K[01;34m[Kr[m[K[01;34m[Ka[m[K[01;34m[Kt[m[K[01;34m[Ku[m[K[01;34m[Kr[m[K[01;34m[Ka[m[K);
+      |                                     [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K  [01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K[01;34m[K~[m[K
+      |                                                                         [01;34m[K|[m[K
+      |                                                                         [01;34m[Krobx7_interfaces::msg::HardwareStatus_<std::allocator<void> >::_temperatura_type {aka long int}[m[K
+[01m[K/home/arturo-adahir-duarte/ros2_ws/src/actividad_3_pkg/src/emulator_node.cpp:20:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   20 |   RCLCPP_INFO(this->get_logger(), "Publicando Temperatura: [01;32m[K%[m[K[01;32m[Kd[m[K C", msg.temperatura);
+      |                                                            [01;32m[K~[m[K[01;32m[K^[m[K
+      |                                                             [01;32m[K|[m[K
+      |                                                             [01;32m[Kint[m[K
+      |                                                            [32m[K%ld[m[K
